@@ -1,0 +1,471 @@
+body {
+  margin: 0;
+}
+
+html * {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Serif Pro", serif;
+}
+
+.like-too {
+  padding: 13px 24px 13px 24px;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header {
+  background: #00506c;
+  padding-top: 21px;
+  padding-bottom: 10px;
+}
+
+.about-header {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 29px;
+}
+
+.header-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btn-details {
+  display: flex;
+  gap: 15px;
+}
+
+button.btn-details {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+ul.main-nav-list {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1102px;
+  margin: 0 auto;
+  padding: 0 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a.main-nav-link {
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.nav-contact {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 0px solid !important;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+section.hero-section {
+  background: linear-gradient(
+    180deg,
+    #00506c 2%,
+    rgba(0, 80, 108, 0.34) 89.55%
+  );
+}
+
+.hero-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+h1.hero-heading {
+  margin: 0px;
+  font-size: 46px;
+  font-weight: 400;
+  color: white;
+  width: 120%;
+  padding-bottom: 5px;
+}
+
+p.hero-text {
+  margin: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  width: 122%;
+  line-height: 1.8;
+}
+
+section.partners {
+  border-bottom: 1px solid #3bc7f7;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 21px 15px 15px 9px;
+  max-width: 1200px;
+}
+
+section.brace-system {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h3.most-popular {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #00506c;
+  width: 64%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-saving {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+h3.saving {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: "Montserrat";
+}
+
+h3.video-about-brace {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00506c;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+img.teeth-img {
+  padding-bottom: 63px;
+}
+
+.form-main {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+form.cta-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h3.form-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+p.form-text {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #3bc7f7;
+  padding-bottom: 24px;
+}
+
+input.form-input {
+  padding: 17px 30px 17px 30px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.form-checkbox {
+  text-align: center;
+}
+
+label.checkbox-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.form-checkbox {
+  padding: 10px 0px;
+}
+
+input.submit-form-btn {
+  padding: 17px 0px;
+  background: #3bc7f7;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.form-cta-.main {
+  background: #00506c;
+  box-shadow: 3px 4px 10px 1px rgb(0 80 108 / 15%);
+  border-radius: 10px;
+  padding: 46px 34px 30px 34px;
+}
+
+.form-cta-.main {
+  margin-top: -218px;
+}
+
+h3.heading-partner {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: "Montserrat";
+}
+
+section.Invisalign-provider {
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+h2.heading-provider {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+h4.provider-heading {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin: 0px;
+  color: #00506c;
+  padding-bottom: 10px;
+}
+
+p.provider-text {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #454648;
+  line-height: 1.6;
+  padding-bottom: 52px;
+}
+
+.we-are-offer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 96px;
+  max-width: 1200px;
+}
+
+.about-offer {
+  width: 200%;
+  padding-top: 20px;
+}
+
+h3.heading-offer {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+p.Invisalign-rates {
+  margin: 0px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+h4.heading-pakages {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  padding-bottom: 5px;
+}
+
+h3.heading-pkg {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: #00626f;
+  padding-bottom: 14px;
+  width: 106%;
+}
+
+p.text-pkg {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.9;
+  width: 101%;
+}
+
+.Invisalign-rates span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00626f;
+}
+
+section.Invisalign-services {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.33) 0%,
+    #00506c 73.57%
+  );
+}
+
+.services-main {
+  width: 988px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 59px;
+}
+
+h2.heading-services {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: white;
+}
+
+p.services-text {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.details-main {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 174px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+h3.heading-about-experience {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+p.text-about-experience {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.7;
+}
+
+.about-experience {
+  width: 23%;
+}
+
+.appointment-invisalign {
+  width: 56.5%;
+  margin: 0px auto;
+  padding: 0px 15px;
+  background: #d6f4ff;
+  text-align: center;
+  margin-top: -37px;
+}
+
+h3.appointment-heading {
+  margin: 0px;
+  padding-top: 35px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Source Serif Pro", serif;
+}
+
+p.appointment-text {
+  margin: 0px;
+  padding-bottom: 17px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.appointment-btn {
+  background-color: #3bc7f7;
+  padding: 13px 29px 13px 29px;
+  border-radius: 50px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: -15px;
+}
