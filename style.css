@@ -1,0 +1,797 @@
+body {
+  margin: 0;
+}
+
+html * {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Serif Pro", serif;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.like-too {
+  padding: 13px 24px 13px 24px;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header {
+  background: #00506c;
+  padding-top: 21px;
+  padding-bottom: 10px;
+}
+
+.header-soctland-dental-logo {
+  max-width: 21%;
+  width: 100%;
+}
+
+.header-soctland-dental-logo img {
+    width: 100%;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-btn {
+  display: flex;
+  gap: 10px;
+  max-width: 34%;
+  width: 100%;
+}
+
+.header-btn-details {
+  display: flex;
+  gap: 15px;
+  max-width: 34%;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+button.btn-details {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+ul.main-nav-list {
+  color: white;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  gap: 30px;
+  justify-content: center;
+}
+
+a.main-nav-link {
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-right: 30px;
+  line-height: 2;
+  display: block;
+}
+
+.nav-contact {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 0px solid !important;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(180deg, #00506c 2.9%, rgba(0, 80, 108, 0) 74.58%),url(./assets/img/Rectangle\ 52.png);
+  background-position: center;
+  background-size: cover;
+  padding: 44px 0;
+  min-height: 825px;
+}
+
+h1.hero-heading {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 5px 0;
+}
+
+.hero-container {
+}
+
+p.hero-text {
+  margin: 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.3;
+}
+
+.hero-main-div {
+}
+
+h3.heading-partner {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: "Montserrat";
+}
+
+section.partners {
+  border-bottom: 1px solid #3bc7f7;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  padding: 21px 0 10px;
+  max-width: 50%;
+  width: 100%;
+}
+
+.partners-main {
+  max-width: 1112px;
+  margin: 0 auto;
+} 
+
+section.brace-system {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+h3.most-popular {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #00506c;
+  max-width: 368px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-saving {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  justify-content: center;
+}
+
+h3.saving {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: "Montserrat";
+}
+
+h3.video-about-brace {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00506c;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+img.teeth-img {
+  padding-bottom: 63px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-main {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+
+.form-content {
+    max-width: 50%;
+    width: 100%;
+}
+
+.heading-brace-system {
+  padding-top: 50px;
+}
+
+form.cta-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h3.form-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+p.form-text {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #3bc7f7;
+  padding-bottom: 24px;
+}
+
+input.form-input {
+  padding: 17px 30px 17px 30px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.form-checkbox {
+  text-align: center;
+}
+
+label.checkbox-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.form-checkbox {
+  padding: 10px 0px;
+}
+
+input.submit-form-btn {
+  padding: 17px 0px;
+  background: #3bc7f7;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.form-cta-main {
+  background: #00506c;
+  box-shadow: 3px 4px 10px 1px rgb(0 80 108 / 15%);
+  border-radius: 10px;
+  padding: 48px 32px;
+}
+
+.form-cta-main {
+  margin-top: -145px;
+}
+
+.about-specialist-btn {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 13px 65px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.about-view-location {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 200, 247, 0);
+  border-radius: 100px;
+  border: none;
+  color: #00506c;
+  padding: 13px 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+section.Specialist-orthodontists {
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  padding-bottom: 45px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+h3.Specialist-orthodontists-heading {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  line-height: 1.4;
+}
+
+h4.Specialist-our-team {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: #00506c;
+  padding-bottom: 10px;
+  line-height: 1.4;
+}
+
+.specialist-main {
+    max-width: 944px;
+    margin: 0 auto;
+}
+
+p.Specialist-our-team-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  padding-bottom: 30px;
+  width: 102%;
+  margin: 0px;
+}
+
+.composite-bonding-details-main {
+    max-width: 260px;
+}
+
+.btn-invisalign {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: #00506c;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Invisalign {
+  background-image: url(./assets/img/Rectangle\ 71.png);
+  padding: 141px 0px 150px 103px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.container-invisalign {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+h3.heading-invisalign {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 8px;
+}
+
+p.Invisalign-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  width: 103%;
+  line-height: 1.8;
+  margin: 0px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.main-invisalign {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 20px;
+  width: 36%;
+  padding: 40px 39px 31px 39px;
+}
+
+.main-coposite-bonding {
+  display: flex;
+}
+
+img.men-smiling {
+  width: 100%;
+  display: block;
+}
+
+img.women-smiling {
+  width: 100%;
+  display: block;
+}
+
+.women-with-smiling {
+  max-width: 50%;
+  width: 100%;
+}
+
+h2.heading-composite-bonding {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 8px;
+  color: white;
+}
+
+p.text-composite-bonding {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.composite-bonding-details {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 0px 20px 20px 0px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.men-with-smiling {
+  max-width: 50%;
+  width: 100%;
+}
+
+section.composite-bonding {
+  margin-bottom: 20px;
+}
+
+.main-dental-implants {
+  display: flex;
+}
+
+h2.heading-dental-implants {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 8px;
+  color: white;
+}
+
+p.text-dental-implants {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.dental-implants-details {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 20px 0px 0px 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.dental-implants {
+  margin-bottom: 110px;
+}
+
+.Invisalign-saving {
+  background-image: url(./assets/img/Rectangle\ 36.png);
+  background-position: center;
+  background-size: cover;
+  padding: 96px 0;
+}
+
+.about-appoitment {
+  text-align: center;
+}
+
+h3.heading-invisalign-saving {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 12px;
+}
+
+p.text-invisalign-appiotment {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+
+button.btn-appointment {
+  padding: 13px 36px 13px 36px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #00506c;
+  cursor: pointer;
+}
+
+footer.dental-footer {
+  background: #00506c;
+}
+
+.main-nav-footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+  padding-top: 54px;
+  padding-bottom: 74px;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 33%;
+}
+
+p.footer-text {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.9;
+  width: 89%;
+  font-family: "Montserrat";
+  padding-top: 13px;
+}
+
+h3.heading-nav-information {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+}
+
+h3.heading-nav-sevices {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+}
+
+h3.heading-nav-getin {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+}
+
+p.info-dental {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  font-family: "Montserrat";
+  margin: 0px;
+  padding-bottom: 18px;
+}
+
+p.info-dental {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-end {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  padding-top: 35px;
+  padding-bottom: 94px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+p.text-dental-scotland {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.about-privacy-policy {
+  display: flex;
+  gap: 30px;
+}
+
+p.Privacy-policy {
+  margin: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+}
+
+p.website-design {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-getin {
+  padding-top: 20px;
+}
+
+section.follow-on-instagram {
+  text-align: center;
+  padding: 116px 0 130px;
+  width: 100%;
+}
+
+h3.instagram-username {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+p.text-for-insta {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+h3.heading-for.location {
+  margin: 0px;
+  padding-top: 110px;
+  padding-bottom: 60px;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+ul.nav-information {
+  list-style: none;
+  text-decoration: none;
+}
+
+a.info-pager {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-information li {
+  padding-bottom: 12px;
+}
+
+a.info-services {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ul.nav-services {
+  list-style: none;
+}
+
+.nav-services li {
+  padding-bottom: 12px;
+}
+.about-location h3 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00506C;
+}
+
+.about-location p {
+  margin: 0 0 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+}
+
+.about-location {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 20px;
+}
+
+
+
+@media only screen and (max-width: 1136px) {
+  .header-btn {
+    display: flex;
+    gap: 10px;
+    width: 30%;
+  }
+
+  ul.main-nav-list {
+    justify-content: start;
+    gap: 17px;
+  }
+
+  .composite-bonding-details {
+    padding-top: 64px;
+    padding-left: 113px;
+    margin-bottom: 0px;
+  }
+
+  .dental-implants-details {
+    padding-top: 64px;
+    padding-left: 113px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .like-too {
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+  }
+}
