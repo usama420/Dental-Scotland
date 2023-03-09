@@ -1805,6 +1805,287 @@ section.treatment {
   padding-bottom: 90px;
 }
 
+main.membership .page-hero.center {
+  padding-bottom: 436px;
+  background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%) , url(./assets/img/member.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.packages .nav-tab {
+  display: flex;
+  list-style: none;
+  max-width: fit-content;
+  margin: 0 auto 75px;
+  background: rgba(0, 80, 108, 0.74);
+  border-radius: 30px;
+  padding: 10px 12px;
+}
+
+.packages .nav-tab a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #F5F5F5;
+  text-decoration: none;
+  padding: 7px 16px;
+  display: block;
+}
+
+.packages .nav-tab li.active a {
+  background: #3BC7F7;
+  border-radius: 30px;
+}
+
+.packages .tab-content .content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.packages .tab-content .package-card {
+  max-width: 33.33%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.packages .tab-content .package-card:nth-of-type(1) {
+  background: linear-gradient(360deg, #0E516E 0%, #3FC7F3 45.31%, #0E516E 84.9%);
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 45px;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) {
+  background: linear-gradient(180deg, #636366 0%, #EBEBED 45.31%, #848689 100%);
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 35px;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) {
+  background: linear-gradient(180deg, #B2802B 0%, #FAEF9F 50%, #CDAA57 100%);
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 100px;
+}
+
+.packages .tab-content .package-card .card-header img {display: block;margin: 0 auto 10px;}
+
+.packages .tab-content .package-card .card-header {
+  padding: 0 20px;
+  border-bottom: 1px solid white;
+}
+
+.packages .tab-content .package-card .card-header h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  color: #3BC7F7;
+}
+
+.packages .tab-content .package-card .card-header > p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.packages .tab-content .package-card .card-header .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.packages .tab-content .package-card .card-header .price span {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  display: block;
+}
+
+.packages .tab-content .package-card .card-header .price p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.packages .package-card .card-features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.packages .package-card .card-features {
+  padding: 25px 32px 0;
+}
+
+.packages .package-card .card-features ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.packages .package-card .card-features ul li:not(:last-of-type) {
+  margin-bottom: 17px;
+}
+
+.packages .package-card .card-features ul li p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header > :is(h2,p) {
+  color: #595859;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header .price {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-features ul li p {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header > :is(h2,p) {
+  color: #7B4E00;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header .price {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-features ul p {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header {
+  border-color: #595859;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header {
+  border-color: #7B4E00;
+}
+
+section.packages {
+  padding-bottom: 80px;
+  margin-top: -345px;
+}
+
+.cta {
+  padding: 75px 0;
+  text-align: center;
+  background: url('./assets/img/cta.png'),linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #3BC7F7 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.cta h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #00506C;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+main.membership .how-it-works ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+main.membership .how-it-works ul li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+main.membership .how-it-works ul li p {
+  margin: 0;
+}
+
+main.membership .how-it-works ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+main.membership .how-it-works ul li img {
+  margin-top: 2px;
+}
+
+.membership section.how-it-works {
+  padding: 110px 0 140px;
+}
+
+.membership-steps h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #454648;
+  margin-bottom: 50px;
+}
+
+.membership-steps .membership-steps-main {
+  display: flex;
+  gap: 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.membership-steps .membership-cards {
+  max-width: 33.33%;
+  width: 100%;
+  background: linear-gradient(180deg, #00506C 0%, rgba(0, 80, 108, 0.6) 100%);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 25px;
+}
+
+.membership-steps .membership-cards img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.membership-steps .membership-cards h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  color: #F5F5F5;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.membership-steps .membership-cards p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #F5F5F5;
+}
+
+section.membership-steps {
+  padding-bottom: 120px;
+}
+
 @media only screen and (max-width: 1136px) {
   .header-btn {
     display: flex;
