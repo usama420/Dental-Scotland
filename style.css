@@ -92,6 +92,7 @@ ul.main-nav-list {
   padding: 0;
   gap: 30px;
   justify-content: center;
+  margin: 0;
 }
 
 a.main-nav-link {
@@ -1141,7 +1142,6 @@ section.how-it-works {
 .how-main .how-img img {
   width: 100%;
   display: block;
-  aspect-ratio: 1/1.35;
   object-fit: cover;
   object-position: center;
   z-index: 2;
@@ -1165,7 +1165,7 @@ section.how-it-works {
   content: '';
   display: block;
   position: absolute;
-  width: 184px;
+  width: 183px;
   aspect-ratio: 1;
   background: url('./assets/img/Dots.png');
   right: -75px;
@@ -1438,6 +1438,172 @@ section.how-it-works {
   font-size: 20px;
   line-height: 28px;
   color: white;
+}
+
+.steps .how-content h2 {
+  margin-bottom: 40px;
+}
+
+.steps .how-content ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.steps .how-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.steps .how-content ul li p {
+  margin: 0;
+}
+
+.steps .how-content ul li:not(:last-of-type) {
+  margin-bottom: 38px;
+}
+
+.steps .how-content ul li .step-icon {
+  max-width: 75px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #00506C;
+}
+
+.steps .how-content ul li h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  display: block;
+  color: #454648;
+}
+
+.steps .how-content ul li p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #454648;
+}
+
+.faqs {
+  padding: 10px 0 100px;
+}
+
+.faqs h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.5;
+  color: #454648;
+  margin-bottom: 70px;
+}
+
+.faqs .faqs-main {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.faqs .faqs-main .accordion {
+  padding: 30px 0;
+  border-top: 1px solid rgba(0, 98, 111, 0.5);
+}
+
+.faqs .faqs-main .accordion__header > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Source Serif Pro';
+  color: #454648;
+}
+
+.faqs .faqs-main .accordion:last-of-type {
+  border-bottom: 1px solid rgba(0, 98, 111, 0.5);
+}
+
+.faqs .faqs-main .accordion__body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  padding-top: 15px;
+}
+
+.faqs .faqs-main .accordion :is(.accordion__header,.accordion__body) {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faqs .faqs-main .accordion__body p {
+  margin-bottom: 25px;
+}
+
+.faqs .faqs-main .accordion .accordion__header .open-icon .line {
+  display: block;
+  height: 2px;
+  width: 16px;
+  background: rgba(0, 98, 111, 1);
+  position: absolute;
+  transition: all ease 0.5s;
+}
+
+.faqs .faqs-main .accordion .accordion__header .open-icon .line:last-of-type {
+  transform: rotate(90deg);
+}
+
+.faqs .faqs-main .accordion .accordion__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faqs .faqs-main .accordion .accordion__header.open .open-icon .line:last-of-type {
+  transform: rotate(0deg);
+}
+
+.page-hero.center .hero-main {
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero.center .hero-content {
+  padding: 0;
+  max-width: 475px;
+}
+
+
+.page-hero.center {
+  background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%) , url(./assets/img/Header-Bar.png);
+  background-position: center;
+  background-size: cover;
+  padding: 300px 0 200px;
+  margin-top: -233px;
+}
+
+main.dental-implants .heading-partner {
+  font-family: 'Source Serif Pro';
+}
+
+main.dental-implants .partner-logo {
+  justify-content: center;
+  padding: 30px 0 20px;
+}
+
+main.dental-implants .heading-brace-system {
+  padding-top: 30px;
+}
+
+main.dental-implants .heading-brace-system img {
+  padding-bottom: 20px;
+}
+
+main.dental-implants h4.Specialist-our-team {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1136px) {
