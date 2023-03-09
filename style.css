@@ -1137,6 +1137,12 @@ section.how-it-works {
   max-width: 45%;
   width: 100%;
   position: relative;
+  padding-top: 75px;
+  padding-right: 75px;
+}
+
+.how-img-main {
+    position: relative;
 }
 
 .how-main .how-img img {
@@ -1148,7 +1154,7 @@ section.how-it-works {
   position: relative;
 }
 
-.how-main .how-img::after {
+.how-main .how-img-main::after {
   content: '';
   display: block;
   width: 100%;
@@ -1161,7 +1167,7 @@ section.how-it-works {
   border-radius: 2px;
 }
 
-.how-main .how-img::before {
+.how-main .how-img-main::before {
   content: '';
   display: block;
   position: absolute;
@@ -1460,7 +1466,7 @@ section.how-it-works {
   margin: 0;
 }
 
-.steps .how-content ul li:not(:last-of-type) {
+.how-it-works.steps .how-content ul li:not(:last-of-type) {
   margin-bottom: 38px;
 }
 
@@ -1604,6 +1610,59 @@ main.dental-implants .heading-brace-system img {
 
 main.dental-implants h4.Specialist-our-team {
   max-width: 100%;
+}
+
+main.dental-implants .how-it-works {
+  padding: 50px 0 60px;
+}
+
+main.dental-implants .how-it-works ul {
+  padding: 0;
+  list-style: none;
+}
+
+main.dental-implants .how-it-works ul li {
+  display: flex;
+  gap: 16px;
+}
+
+main.dental-implants .how-it-works ul li p {
+  margin: 0;
+}
+
+main.dental-implants .how-it-works ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+main.dental-implants .how-it-works ul li img {
+  margin-top: 2px;
+}
+
+.how-it-works.reverse .how-main {
+  flex-direction: row-reverse;
+}
+
+.how-it-works.reverse .how-content {
+  padding-left: 67px;
+  padding-right: 0;
+}
+
+.how-it-works.reverse .how-img-main::before {
+  right: unset;
+  left: -75px;
+}
+
+.how-it-works.reverse .how-img-main::after {
+  right: unset;
+  left: -44px;
+}
+
+main.dental-implants .how-it-works.reverse {
+  padding-bottom: 123px;
+}
+
+section.how-it-works.steps {
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 1136px) {
