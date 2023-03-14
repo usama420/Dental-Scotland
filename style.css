@@ -5,6 +5,7 @@ body {
 html * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+
 }
 
 h1,
@@ -228,6 +229,8 @@ img.teeth-img {
   display: flex;
   padding-bottom: 100px;
   justify-content: space-between;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 .form-content {
@@ -2118,3 +2121,641 @@ section.membership-steps {
   }
 }
 /* NOMI CSS */
+ .about-us-page-hero {
+  background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%);
+  text-align: center;
+  padding: 67px 0 72px 0;
+
+
+ }
+
+
+ .contact-us-page-hero {
+  background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%);
+  text-align: center;
+  padding: 67px 0 72px 0;
+
+
+ }
+
+ .our-team-page-hero {
+  background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%);
+  text-align: center;
+  padding: 67px 0 72px 0;
+
+
+ }
+
+ .main-about-us-page-container h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.64px;
+  color: #F5F5F5;
+ }
+
+ .main-about-us-page-container a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  color: #FFFFFF;
+  text-decoration: none;
+ }
+
+
+
+main.about-us .mission-vission .form-cta-main {
+  margin: 0;
+}
+
+main.about-us .mission-vission .form-main {
+  padding-top: 82px;
+}
+
+
+.mission-vission .form-content .heading {
+  font-size: 38px;
+  line-height: 47.61px;
+  font-weight: 600;
+  color: #333335;
+}
+
+main.about-us .mission-vission .form-content {
+  max-width: 695px;
+  width: 100%;
+}
+
+main.about-us .mission-vission .form-cta-main {
+  max-width: 439px;
+  width: 100%;
+}
+
+
+main.our-team .why-our-team .form-cta-main {
+  margin: 0;
+}
+
+main.our-team .why-our-team .form-main {
+  padding-top: 82px;
+}
+
+
+main.contact-us .get-in-touch .form-cta-main {
+  margin: 0;
+}
+
+main.contact-us .why-our-team .form-main {
+  padding-top: 82px;
+}
+
+
+.why-our-team .form-content .heading {
+  font-size: 38px;
+  line-height: 47.61px;
+  font-weight: 600;
+  color: #333335;
+}
+
+main.our-team .why-our-team .form-content {
+  max-width: 695px;
+  width: 100%;
+}
+
+main.our-team .why-our-team .form-cta-main {
+  max-width: 439px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.heading-content h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47px;
+  color: #333335;
+  font-family: Source Serif Pro;
+}
+
+.heading-content p {
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 16px;
+  color: #00506C;
+  margin: 15px 0 15px 0;
+  font-family: Montserrat;
+}
+
+.about-us-description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333335;
+  font-family: Montserrat;
+
+}
+
+.our-team-description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333335;
+  margin-top: 20px;
+}
+
+
+.about-us-our-mission h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #00506C;
+  font-family: Montserrat;
+}
+
+.about-us-our-mission p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  font-family: Montserrat;
+  margin-top: 10px;
+}
+
+
+.about-us-our-vission h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #00506C;
+  font-family: Montserrat;
+
+}
+
+.about-us-our-vission p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  font-family: Montserrat;
+  margin-top: 10px;
+
+}
+
+
+.about-us-our-mission {
+  margin-top: 35px;
+}
+
+
+.about-us-our-vission {
+  margin-top: 30px;
+}
+
+.our-core-values {
+  background: linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #00506C 73.57%), url('assets/img/background.png');
+  background-position: center center;
+  background-size: contain;
+  padding: 101px 0 82px 0;
+}
+
+.main-core-values-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1174px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+
+}
+
+.main-core-heading h2 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.main-services-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1082px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.main-practice-gallery-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+  padding-top: 82px;
+}
+
+
+.main-practice-location-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+  padding-top: 112px;
+}
+
+
+.main-our-team-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+}
+
+
+.services-details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+}
+
+.our-services {
+  padding: 76px 0 73px 0;
+}
+
+.benefits h3 {
+  font-size: 22px;
+  line-height: 26.82px;
+  font-weight: 600;
+  color: #F5F5F5;
+  margin-top: 20px;
+}
+
+.service-1 {
+  position: relative;
+  max-width: 340px;
+  width: 100%;
+  background: linear-gradient(0.01deg, rgba(0, 80, 108, 0.74) -2.12%, rgba(22, 124, 159, 0.514427) 35.64%, rgba(59, 199, 247, 0.13) 99.99%), url('assets/img/Rectangle\ 54.png');
+  border-radius: 10px;
+  background-position: center center;
+}
+
+.services-button {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+
+.service-1 .services-heading {
+  padding: 19px 0 184px 0;
+}
+
+.service-1 a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #00506C;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+.services-heading {
+  width: 240px;
+}
+
+.services-heading h4 {
+  color: #F5F5F5;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.services-main-heading h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47px;
+  font-family: Source Serif Pro;
+}
+
+.gallery-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+
+}
+
+.gallery-main-heading {
+  padding-bottom: 37px;
+}
+
+.location-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+}
+
+
+.location-main-heading {
+  padding-bottom: 37px;
+}
+
+
+
+.our-team-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+}
+
+
+.our-team-main-heading {
+  padding-bottom: 37px;
+}
+
+
+
+.services-main-heading {
+  padding-bottom: 50px;
+
+}
+
+.services-heading-2 {
+  width: 176px;
+
+
+}
+
+
+.services-heading-2 h4 {
+  line-height: 35px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.services-heading-3 h4 {
+  line-height: 35px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.services-details a {
+  text-decoration: none;
+}
+
+.gallery-details {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.instagram-gallery {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 14px;
+  column-gap: 12px;
+}
+
+.location-details {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 18px;
+
+}
+
+.people-data-image h5 {
+  margin: 0;
+  margin-top: 30px;
+ }
+
+ .accessibility h3 {
+  font-family: Montserrat;
+ }
+
+
+ .thinking h3 {
+  font-family: Montserrat;
+ }
+
+ .trust h3 {
+  font-family: Montserrat;
+ }
+
+ .efficiency h3 {
+  font-family: Montserrat;
+ }
+
+ .integrity h3 {
+  font-family: Montserrat;
+ }
+
+ .accountability h3 {
+  font-family: Montserrat;
+ }
+
+ .transparency h3 {
+  font-family: Montserrat;
+ }
+
+
+.our-team-details {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 18px;
+
+}
+
+.location-data-image img {
+  margin-top: 27px;
+}
+
+
+
+.location-data-image h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00506C;
+}
+
+.location-data-image {
+  width: 388px;
+  margin: 0;
+}
+
+.location-data-image p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.people-data-image img {
+  margin-top: 27px;
+}
+
+.people-data-image h5 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #00506C;
+  font-family: Montserrat;
+}
+
+.people-data-image {
+  width: 388px;
+}
+
+.people-data-image p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #00506C;
+}
+
+.main-our-team-page-container h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.64px;
+  color: #F5F5F5;
+ }
+
+ .main-our-team-page-container a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  color: #FFFFFF;
+  text-decoration: none;
+ }
+
+ .timings {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+ }
+ 
+ .main-opening-hours-containers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 945px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 67px;
+  padding-bottom: 67px;
+ }
+
+ .opening-hours {
+  background-image: url('./assets/img/Group\ 299.png');
+  background-position: center;
+  background-size: cover;
+ }
+
+ .main-heading-opening-hours h2 {
+  font-family: Source Serif Pro;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 47.61px;
+  color: white;
+ }
+
+
+ .timings p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+  margin-top: 30px;
+ }
+
+ .timings span {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+ }
+
+ .form-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ #form-1 {
+  justify-content: center;
+  gap: 110px;
+ }
+
+ .get-in-touch-form h3 {
+  color: #00506C;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: Source Serif Pro;
+  
+ }
+
+ .personal-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+  column-gap: 20px;
+ }
+
+ .personal-info img {
+  width: 43px;
+ }
+
+ .social-media-icons {
+  width:266.78px;
+  margin-top: 50px;
+ }
+
+ .personal-info p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #00506C;
+  font-family: Montserrat;
+ }
+ 
+
+.contacts {
+  margin-top: 50px;
+}
