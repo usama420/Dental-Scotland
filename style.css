@@ -2196,6 +2196,7 @@ main.our-team .why-our-team .form-cta-main {
 
 main.our-team .why-our-team .form-main {
   padding-top: 82px;
+  padding-bottom: 82px;
 }
 
 
@@ -2325,6 +2326,7 @@ main.our-team .why-our-team .form-cta-main {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  row-gap: 40px;
 }
 
 .benefits {
@@ -2342,7 +2344,7 @@ main.our-team .why-our-team .form-cta-main {
   line-height: 28px;
   font-weight: 600;
   color: #FFFFFF;
-  margin-bottom: 40px;
+  font-family: Montserrat;
 }
 
 .main-services-container {
@@ -2352,6 +2354,8 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
+  padding: 76px 0 73px 0;
+  row-gap: 37px;
 }
 
 .main-practice-gallery-container {
@@ -2361,8 +2365,9 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  padding-bottom: 74px;
-  padding-top: 82px;
+  padding-bottom: 82px;
+  padding-top: 74px;
+  row-gap: 37px;
 }
 
 
@@ -2374,6 +2379,7 @@ main.our-team .why-our-team .form-cta-main {
   margin: 0 auto 0 auto;
   text-align: center;
   padding-bottom: 74px;
+  row-gap: 60px;
   padding-top: 112px;
 }
 
@@ -2385,7 +2391,8 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  padding-bottom: 74px;
+  padding-bottom: 82px;
+  row-gap: 30px;
 }
 
 
@@ -2396,9 +2403,7 @@ main.our-team .why-our-team .form-cta-main {
  
 }
 
-.our-services {
-  padding: 76px 0 73px 0;
-}
+
 
 .benefits h3 {
   font-size: 22px;
@@ -2424,7 +2429,7 @@ main.our-team .why-our-team .form-cta-main {
 }
 
 .service-1 .services-heading {
-  padding: 19px 0 184px 0;
+  padding: 19px 0 184px 18px;
 }
 
 .service-1 a {
@@ -2449,6 +2454,7 @@ main.our-team .why-our-team .form-cta-main {
   font-size: 28px;
   line-height: 35px;
   font-weight: 600;
+  text-align: left;
 }
 
 .services-main-heading h2 {
@@ -2467,9 +2473,6 @@ main.our-team .why-our-team .form-cta-main {
 
 }
 
-.gallery-main-heading {
-  padding-bottom: 37px;
-}
 
 .location-main-heading h2 {
   line-height: 47.61px;
@@ -2479,10 +2482,6 @@ main.our-team .why-our-team .form-cta-main {
   font-family: Source Serif Pro;
 }
 
-
-.location-main-heading {
-  padding-bottom: 37px;
-}
 
 
 
@@ -2495,20 +2494,10 @@ main.our-team .why-our-team .form-cta-main {
 }
 
 
-.our-team-main-heading {
-  padding-bottom: 37px;
-}
-
-
-
-.services-main-heading {
-  padding-bottom: 50px;
-
-}
 
 .services-heading-2 {
   width: 176px;
-
+  padding: 19px 0 184px 18px;
 
 }
 
@@ -2521,6 +2510,11 @@ main.our-team .why-our-team .form-cta-main {
   text-align: left;
   margin-left: 20px;
   margin-top: 10px;
+}
+
+.services-heading-3 {
+  padding: 19px 0 184px 18px;
+
 }
 
 .services-heading-3 h4 {
@@ -2540,6 +2534,8 @@ main.our-team .why-our-team .form-cta-main {
 .gallery-details {
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  justify-content: center;
 }
 
 .instagram-gallery {
@@ -2600,11 +2596,13 @@ main.our-team .why-our-team .form-cta-main {
 
 .location-data-image img {
   margin-top: 27px;
+  margin-bottom: 50px;
 }
 
 
 
 .location-data-image h3 {
+  margin: 0 0 10px 0;
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
@@ -2667,7 +2665,6 @@ main.our-team .why-our-team .form-cta-main {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 30px;
  }
  
  .main-opening-hours-containers {
@@ -2680,6 +2677,7 @@ main.our-team .why-our-team .form-cta-main {
   margin-right: auto;
   padding-top: 67px;
   padding-bottom: 67px;
+  row-gap: 30px;
  }
 
  .opening-hours {
@@ -2734,7 +2732,7 @@ main.our-team .why-our-team .form-cta-main {
  .personal-info {
   display: flex;
   align-items: center;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   column-gap: 20px;
  }
 
@@ -2742,10 +2740,7 @@ main.our-team .why-our-team .form-cta-main {
   width: 43px;
  }
 
- .social-media-icons {
-  width:266.78px;
-  margin-top: 50px;
- }
+
 
  .personal-info p {
   font-weight: 500;
@@ -2758,4 +2753,17 @@ main.our-team .why-our-team .form-cta-main {
 
 .contacts {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-us .facebook-icon {
+  margin-right: 36px;
+}
+
+.contact-us .twitter-icon {
+  margin-right: 36px;
+}
+
+.get-in-touch-form h3 {
+  margin-bottom: 50px;
 }
