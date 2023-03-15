@@ -202,10 +202,11 @@ h3.most-popular {
 
 h3.saving {
   margin: 0px;
-  font-size: 16px;
-  font-weight: 600;
   color: #00506c;
   font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .video-about-brace {
@@ -1231,6 +1232,25 @@ section.how-it-works {
 .compare-table table :is(th,td) {
   text-align: center;
   height: 99px;
+}
+
+.compare-table table tbody :is(th,td) {
+  text-align: center;
+  height: 99px;
+  text-align: center;
+  height: 99px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00506C;
+}
+
+.compare-table table thead :is(th,td) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333335;
 }
 
 .compare-table table tbody td:first-of-type {
@@ -2758,4 +2778,15 @@ main.our-team .why-our-team .form-cta-main {
 
 .contacts {
   margin-top: 50px;
+}
+
+/* changes */
+.home .compare-table table thead th:nth-of-type(2) {
+  background: #4c8498;
+  width: 265px;
+}
+
+.home .compare-table table thead th:nth-of-type(2) img {
+  max-width: 134px;
+  width: 100%;
 }
