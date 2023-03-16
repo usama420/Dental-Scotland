@@ -39,3 +39,32 @@ tab_nav.children('li').children('a').on('click', function (e) {
   $(activeTab).siblings().hide().removeClass("active");
   $(activeTab).fadeIn().addClass("active")
 });
+
+
+// comparison slider
+
+var divisor = document.getElementById("divisor"),
+    handle = document.getElementById("handle"),
+    slider = document.getElementById("slider");
+
+function moveDivisor() {
+  handle.style.left = slider.value+"%";
+	divisor.style.width = slider.value+"%";
+}
+
+window.onload = function() {
+	moveDivisor();
+};
+
+// header dropdown
+
+$('.header-select button').on('click',function(){
+  $('.header-select-items .items-list').slideToggle()
+  $('.header-select-items').toggleClass('active')
+})
+
+// hamburger
+$('.hamburger').on('click',function(){
+  $(this).toggleClass('active')
+  $('.mobile-menu').slideToggle()
+})

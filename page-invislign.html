@@ -19,11 +19,25 @@
     <div class="container">
       <div class="header-main">
         <div class="header-btn">
-          <button class="like-too">I would like to</button>
+          <div class="header-select">
+            <button class="like-too">I want <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8"
+                viewBox="0 0 12 8" fill="none">
+                <path d="M10.4375 6.0002L6.40936 1.2002L2.38122 6.0002" stroke="white" stroke-width="2"
+                  stroke-linecap="square" stroke-linejoin="round" />
+              </svg></button>
+            <div class="header-select-items">
+              <div class="items-list">
+                <a href="#">Invisalign ®</a>
+                <a href="#">composite bonding</a>
+                <a href="#">dental implants</a>
+              </div>
+            </div>
+          </div>
 
-          <img class="header-logo" src="./assets/svg/Group 83.svg" alt="facebook logo">
-
-          <img class="header-logo" src="./assets/svg/Group 84.svg" alt="instagram logo">
+          <div class="header-social">
+            <a href="#"><img class="header-logo" src="./assets/svg/Group 83.svg" alt="facebook logo"></a>
+            <a href="#"><img class="header-logo" src="./assets/svg/Group 84.svg" alt="instagram logo"></a>
+          </div>
         </div>
 
         <div class="header-soctland-dental-logo">
@@ -31,9 +45,15 @@
         </div>
 
         <div class="header-btn-details">
-          <button class="btn-details">Practice Locations</button>
+          <a href="#" class="btn-details">Practice Locations</a>
 
-          <button class="btn-details">Book an Appointment</button>
+          <a href="#" class="btn-details">Book an Appointment</a>
+
+          <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
         </div>
       </div>
 
@@ -47,6 +67,25 @@
           <li><a class="main-nav-link nav-contact" href="#">CONTACT US</a></li>
         </ul>
       </nav>
+
+      <div class="mobile-menu">
+        <div class="mobile-btns">
+          <a href="#">Practice Locations</a>
+          <a href="#">Book an Appointment</a>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a class="main-nav-link" href="#">Invisalign ®</a></li>
+          <li><a class="main-nav-link" href="#">composite bonding</a></li>
+          <li><a class="main-nav-link" href="#">dental implants</a></li>
+          <li><a class="main-nav-link" href="#">ds+ MEMBERSHIP</a></li>
+          <li><a class="main-nav-link" href="#">JOIN OUR TEAM</a></li>
+          <li><a class="main-nav-link nav-contact" href="#">CONTACT US</a></li>
+        </ul>
+        <div class="mobile-header-social">
+          <a href="#"><img class="header-logo" src="./assets/svg/Group 83.svg" alt="facebook logo"></a>
+          <a href="#"><img class="header-logo" src="./assets/svg/Group 84.svg" alt="instagram logo"></a>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -132,7 +171,7 @@
     <section class="Specialist-orthodontists one-invislign">
       <div class="container">
         <div class="specialist-main">
-          <h3 class="Specialist-orthodontists-heading">Scotland #1 Invisalign Provider</h3>
+          <h3 class="Specialist-orthodontists-heading">Save £1000 On Invisalign</h3>
 
           <h4 class="Specialist-our-team">At Dental Scotland, we proudly provide Invisalign Braces treatment to patients
             in Scotland.</h4>
@@ -164,6 +203,27 @@
                 satisfied with its results. You can also avail this offer by booking an appointment with our Invisalign
                 dentist.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview">
+      <div class="container">
+        <div class="preview-main">
+          <div class="preview-content">
+            <h2>Preview your smile</h2>
+            <p>Welcome to the future try on your Smile today</p>
+            <a href="#">TAKE A SELFIE <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7.5621 0.198869L11.8047 4.51989C12.0651 4.78505 12.0651 5.21495 11.8047 5.48011L7.5621 9.80113C7.30175 10.0663 6.87964 10.0663 6.61929 9.80113C6.35894 9.53597 6.35894 9.10606 6.61929 8.8409L9.72386 5.67898L4.96472e-07 5.67898L3.77755e-07 4.32102L9.72386 4.32102L6.61929 1.1591C6.35894 0.893936 6.35894 0.464028 6.61929 0.198869C6.87964 -0.0662904 7.30175 -0.0662904 7.5621 0.198869Z"
+                  fill="white" />
+              </svg></a>
+          </div>
+
+          <div class="preview-img">
+            <img src="./assets/img/image 8 (2).png" alt="">
           </div>
         </div>
       </div>
@@ -267,6 +327,33 @@
           <h3>Save £1000 on Invisalign </h3>
           <p>Book an Appointment today to avail our exclusive discounts for a limited time</p>
           <a href="#">book appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="difference">
+      <div class="container">
+        <h2>See The Difference</h2>
+        <div class="difference-main">
+          <div class="column-1">
+            <div id="comparison">
+              <figure>
+                <div id="handle"></div>
+                <div id="divisor"></div>
+              </figure>
+              <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+            </div>
+          </div>
+
+          <div class="column-2">
+            <div id="comparison">
+              <figure>
+                <div id="handle"></div>
+                <div id="divisor"></div>
+              </figure>
+              <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+            </div>
+          </div>
         </div>
       </div>
     </section>

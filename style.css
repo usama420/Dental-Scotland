@@ -41,15 +41,19 @@ p {
   background: #00506c;
   padding-top: 21px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .header-soctland-dental-logo {
-  max-width: 21%;
+  max-width: 32%;
   width: 100%;
 }
 
 .header-soctland-dental-logo img {
     width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
 }
 
 .header-main {
@@ -74,7 +78,66 @@ p {
   width: 100%;
 }
 
-button.btn-details {
+.mobile-menu {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #00506C 73.57%);
+  left: 0;
+  top: 100%;
+  padding: 24px 20px 20px;
+  width: 100%;
+  display: none;
+}
+
+.mobile-menu .mobile-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mobile-menu .mobile-btns a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  display: block;
+}
+
+.mobile-menu .mobile-nav-list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.mobile-menu .mobile-nav-list a {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mobile-menu .mobile-nav-list li:not(:last-of-type) {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile-header-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-details {
   font-size: 14px;
   font-weight: 600;
   background: rgba(59, 199, 247, 0.8);
@@ -83,6 +146,7 @@ button.btn-details {
   color: white;
   padding: 12px 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 ul.main-nav-list {
@@ -91,8 +155,7 @@ ul.main-nav-list {
   list-style: none;
   text-decoration: none;
   padding: 0;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0;
 }
 
@@ -230,7 +293,6 @@ img.teeth-img {
   display: flex;
   padding-bottom: 100px;
   justify-content: space-between;
-  padding-top: 112px;
   padding-bottom: 112px;
 }
 
@@ -919,7 +981,7 @@ ul.nav-services {
 }
 
 .compare {
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .compare-main {
@@ -1720,12 +1782,29 @@ section.how-it-works.steps {
   margin-bottom: 24px;
 }
 
-.composite-bonding .form-cta-main {
-  margin-top: -40px;
+
+.composite-bonding .partner-logo {
+  justify-content: center;
 }
 
-.composite-bonding .form-content {
-  max-width: 57%;
+.composite-bonding .partner-logo h3{
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.composite-bonding p.Specialist-our-team-text {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.composite-bonding .specialist-main {
+  max-width: 1012px;
+}
+
+.composite-bonding h4.Specialist-our-team {
+  max-width: 100%;
 }
 
 main.composite-bonding .how-it-works ul {
@@ -2109,37 +2188,6 @@ section.membership-steps {
   padding-bottom: 120px;
 }
 
-@media only screen and (max-width: 1136px) {
-  .header-btn {
-    display: flex;
-    gap: 10px;
-    width: 30%;
-  }
-
-  ul.main-nav-list {
-    justify-content: start;
-    gap: 17px;
-  }
-
-  .composite-bonding-details {
-    padding-top: 64px;
-    padding-left: 113px;
-    margin-bottom: 0px;
-  }
-
-  .dental-implants-details {
-    padding-top: 64px;
-    padding-left: 113px;
-    margin-bottom: 0px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .like-too {
-    padding: 10px 10px 10px 10px;
-    font-size: 12px;
-  }
-}
 /* NOMI CSS */
  .about-us-page-hero {
   background: linear-gradient(180deg, #00506C 2%, rgba(0, 80, 108, 0.34) 89.55%);
@@ -2789,4 +2837,406 @@ main.our-team .why-our-team .form-cta-main {
 .home .compare-table table thead th:nth-of-type(2) img {
   max-width: 134px;
   width: 100%;
+}
+
+section.preview {
+  background: linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #00506C 73.57%);
+  padding-top: 17px;
+}
+
+.preview-main {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.preview-main h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.preview-main p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.preview-main a {
+  background: #3BC7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: white;
+  padding: 13px;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.preview-content {
+  max-width: 250px;
+}
+
+.preview-main img {
+  display: block;
+  width: 100%;
+}
+
+
+/* compare-slider */
+
+#comparison {
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+figure {
+  position: absolute;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
+  background-size: cover;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#divisor {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-after.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  height: 100%;
+}
+#divisor::before, #divisor::after {
+  content: "";
+  position: absolute;
+  right: -2px;
+  width: 4px;
+  height: calc(50% - 25px);
+  background: white;
+  z-index: 3;
+}
+#divisor::before {
+  top: 0;
+  box-shadow: 0 -3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+#divisor::after {
+  bottom: 0;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#handle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+#handle::before, #handle::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 6px inset transparent;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+}
+#handle::before {
+  border-right: 6px solid white;
+  left: 50%;
+  margin-left: -17px;
+}
+#handle::after {
+  border-left: 6px solid white;
+  right: 50%;
+  margin-right: -17px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  width: calc(100% + 50px);
+  z-index: 2;
+}
+input[type=range]:focus, input[type=range]:active {
+  border: none;
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid white;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  height: 15px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  outline: none;
+}
+
+.difference-main {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.difference-main > div {
+  max-width: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.difference-main .column-1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 183px;
+    aspect-ratio: 1;
+    background: url(./assets/img/Dots.png);
+    left: -30px;
+    top: -30px;
+    z-index: 1;
+}
+
+.difference-main .column-1::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: -16px;
+    z-index: -1;
+    left: -16px;
+    background: #3BC7F7;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.difference-main .column-2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 183px;
+  aspect-ratio: 1;
+  background: url(./assets/img/Dots.png);
+  right: -30px;
+  bottom: -30px;
+  z-index: 1;
+}
+
+.difference-main .column-2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  bottom: -16px;
+  z-index: -1;
+  right: -16px;
+  background: #3BC7F7;
+  border-radius: 0 20px 20px 0;
+}
+
+
+
+.difference {
+  padding-top: 130px;
+}
+
+.difference h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #454648;
+  margin-bottom: 30px;
+}
+
+.header-select {
+  max-width: 167px;
+  width: 100%;
+  position: relative;
+}
+
+.header-select button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+}
+
+.header-select button svg {
+  transform: rotate(180deg);
+  transition: all ease 0.5s;
+}
+
+.header-select-items {
+  background: rgba(59, 199, 247, 0.8);
+  padding: 0 10px 0 15px;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all ease 0.5s;
+  min-height: 44px;
+}
+
+.header-select-items.active {
+    padding: 60px 10px 20px 15px;
+}
+
+.header-select-items .items-list {
+    display: none;
+}
+
+.header-select-items a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.header-select-items a:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.hamburger {
+  max-width: 25px;
+  width: 100%;
+}
+
+.hamburger span {
+  width: 100%;
+  background: white;
+  display: block;
+  height: 2px;
+  transition: all ease 0.5s;
+}
+
+.hamburger span:not(:last-of-type) {
+  margin-bottom: 4px;
+}
+
+.hamburger span:last-of-type {
+  max-width: 18px;
+  margin-left: auto;
+}
+
+.hamburger.active .line:last-of-type {
+  display: none;
+}
+
+.hamburger.active .line:nth-of-type(2) {
+  transform: rotate(45deg);
+  margin: -1px 0  0 0;
+}
+
+.hamburger.active .line:nth-of-type(1) {
+  transform: rotate(-45deg);
+  margin-bottom: 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-social {
+    display: none;
+  }
+
+  header .btn-details {
+    display: none;
+  }
+
+  header .main-nav {
+    display: none;
+}
+
+.hamburger {
+  display: block;
+}
+
+.header-main {
+  margin: 0;
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .header-select button {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 10px;
+}
+
+.header-select {
+    max-width: 112px;
+}
+
+.header-select-items {
+    min-height: 25px;
+    border-radius: 12px;
+}
+
+.header-select-items.active {
+    padding: 32px 5px 6px;
+}
+
+.header-select-items a {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.header-select-items {
+    padding: 0 5px 0;
+}
+
+.header-soctland-dental-logo img {
+  max-width: 63px;
+  width: 100%;
+}
+
+.mobile-menu .mobile-btns a {
+  font-size: 10px;
+}
 }
