@@ -2168,7 +2168,9 @@ main.about-us .mission-vission .form-cta-main {
 }
 
 main.about-us .mission-vission .form-main {
+  padding: 0;
   padding-top: 82px;
+  padding-bottom: 82px;
 }
 
 
@@ -2354,7 +2356,7 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  padding: 76px 0 73px 0;
+  padding: 76px 0 0 0;
   row-gap: 37px;
 }
 
@@ -2365,8 +2367,7 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  padding-bottom: 82px;
-  padding-top: 74px;
+ 
   row-gap: 37px;
 }
 
@@ -2378,9 +2379,8 @@ main.our-team .why-our-team .form-cta-main {
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  padding-bottom: 74px;
+
   row-gap: 60px;
-  padding-top: 112px;
 }
 
 
@@ -2470,8 +2470,10 @@ main.our-team .why-our-team .form-cta-main {
   font-weight: 600;
   text-align: center;
   font-family: Source Serif Pro;
+  padding-top: 80px;
 
 }
+
 
 
 .location-main-heading h2 {
@@ -2480,6 +2482,7 @@ main.our-team .why-our-team .form-cta-main {
   font-weight: 600;
   text-align: center;
   font-family: Source Serif Pro;
+  padding-top: 112px;
 }
 
 
@@ -2536,6 +2539,7 @@ main.our-team .why-our-team .form-cta-main {
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
   justify-content: center;
+  padding-bottom: 73px;
 }
 
 .instagram-gallery {
@@ -2543,12 +2547,24 @@ main.our-team .why-our-team .form-cta-main {
   grid-template-columns: repeat(4,1fr);
   row-gap: 14px;
   column-gap: 12px;
+  padding-bottom: 82px;
 }
 
 .location-details {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   column-gap: 18px;
+  row-gap: 50px;
+  padding-bottom: 112px;
+
+}
+
+.location-details-2 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 18px;
+  row-gap: 50px;
+  padding-bottom: 82px;
 
 }
 
@@ -2596,7 +2612,6 @@ main.our-team .why-our-team .form-cta-main {
 
 .location-data-image img {
   margin-top: 27px;
-  margin-bottom: 50px;
 }
 
 
@@ -2767,3 +2782,16 @@ main.our-team .why-our-team .form-cta-main {
 .get-in-touch-form h3 {
   margin-bottom: 50px;
 }
+
+.our-team .form-main {
+  padding: 0;
+}
+
+
+.location-main-heading-2 h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47px;
+
+}
+
