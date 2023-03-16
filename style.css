@@ -299,9 +299,8 @@ img.teeth-img {
 
 .form-main {
   display: flex;
-  padding-bottom: 100px;
   justify-content: space-between;
-  padding-bottom: 112px;
+  margin-bottom: 80px;
 }
 
 .form-content {
@@ -316,6 +315,11 @@ img.teeth-img {
 form.cta-form {
   display: flex;
   flex-direction: column;
+}
+
+.gallery-details img {
+  width: 100%;
+  display: block;
 }
 
 h3.form-heading {
@@ -1960,6 +1964,10 @@ main.membership .page-hero.center {
   padding: 10px 12px;
 }
 
+.packages .tab-content .package-card {
+  min-width: 300px;
+}
+
 .packages .nav-tab a {
   font-weight: 500;
   font-size: 20px;
@@ -1979,6 +1987,7 @@ main.membership .page-hero.center {
   display: flex;
   gap: 30px;
   align-items: flex-start;
+  overflow: auto;
 }
 
 .packages .tab-content .package-card {
@@ -2289,6 +2298,7 @@ main.about-us .mission-vission .form-cta-main {
 
 main.about-us .mission-vission .form-main {
   padding-top: 82px;
+  gap: 20px;
 }
 
 .mission-vission .form-content .heading {
@@ -2437,7 +2447,8 @@ main.our-team .why-our-team .form-cta-main {
   align-items: center;
   max-width: 1174px;
   width: 100%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .main-core-heading h2 {
@@ -2520,16 +2531,21 @@ main.our-team .why-our-team .form-cta-main {
     url('assets/img/Rectangle\ 54.png');
   border-radius: 10px;
   background-position: center center;
+  aspect-ratio: 1.25/1;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .services-button {
-  position: absolute;
-  bottom: 50px;
-  right: 20px;
+  width: fit-content;
+  margin-left: auto;
 }
 
 .service-1 .services-heading {
-  padding: 19px 0 184px 0;
+  text-align: left;
+  width: 100%;
 }
 
 .service-1 a {
@@ -2543,10 +2559,7 @@ main.our-team .why-our-team .form-cta-main {
   padding-right: 26px;
   background-color: #f5f5f5;
   border-radius: 20px;
-}
-
-.services-heading {
-  width: 240px;
+  display: block;
 }
 
 .services-heading h4 {
@@ -2604,7 +2617,6 @@ main.our-team .why-our-team .form-cta-main {
 }
 
 .services-heading-2 {
-  width: 176px;
 }
 
 .services-heading-2 h4 {
@@ -2613,8 +2625,6 @@ main.our-team .why-our-team .form-cta-main {
   color: white;
   font-weight: 600;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 10px;
 }
 
 .services-heading-3 h4 {
@@ -2623,8 +2633,6 @@ main.our-team .why-our-team .form-cta-main {
   color: white;
   font-weight: 600;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 10px;
 }
 
 .services-details a {
@@ -2756,6 +2764,8 @@ main.our-team .why-our-team .form-cta-main {
   justify-content: space-around;
   text-align: center;
   margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px 0;
 }
 
 .main-opening-hours-containers {
@@ -2806,8 +2816,26 @@ main.our-team .why-our-team .form-cta-main {
 }
 
 #form-1 {
-  justify-content: center;
-  gap: 110px;
+  justify-content: space-between;
+}
+
+section.get-in-touch {
+  padding: 112px 0;
+}
+
+section.get-in-touch #form-1 {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+main.contact-us .get-in-touch .form-cta-main {
+  max-width: 55%;
+  width: 100%;
+}
+
+main.contact-us .get-in-touch .get-in-touch-form {
+  max-width: 420px;
+  width: 100%;
 }
 
 .get-in-touch-form h3 {
@@ -3233,6 +3261,49 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 1024px) {
+  .services-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us section.follow-on-instagram {
+    padding-top: 0;
+  }
+
+  main.about-us h3.heading-for.location {
+    padding-top: 0;
+  }
+
+  .main-practice-gallery-container {
+    padding-top: 0;
+  }
+
+  main.about-us .mission-vission .form-content {
+    max-width: 100%;
+  }
+
+  main.about-us .mission-vission .form-cta-main {
+    max-width: 100%;
+  }
+
+  .benefits {
+    justify-content: center;
+    gap: 50px 20px;
+  }
+
+  main.contact-us .get-in-touch .form-cta-main {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  main.contact-us .get-in-touch .get-in-touch-form {
+    max-width: 100%;
+  }
+
+  .form-cta-main {
+    width: 100%;
+  }
+
   .main-nav-footer {
     flex-direction: column;
     padding: 20px 0;
@@ -3315,6 +3386,36 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 767px) {
+  .membership-steps .membership-steps-main {
+    flex-wrap: wrap;
+  }
+
+  .membership-steps .membership-cards {
+    max-width: 100%;
+  }
+
+  main.composite-bonding .how-it-works ul li p {
+    text-align: left;
+  }
+
+  main.composite-bonding .how-it-works.reverse .how-content {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  main.composite-bonding .how-it-works ul li {
+    justify-content: center;
+  }
+
+  .treatment .treatment-main {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  main.composite-bonding .how-it-works.steps ul li {
+    justify-content: flex-start;
+  }
+
   .how-it-works.reverse .how-main {
     flex-direction: column;
   }
@@ -3413,6 +3514,7 @@ input[type='range']::-moz-range-track {
 
   .how-main .how-img {
     max-width: 500px;
+    margin: 0 auto;
   }
 
   .compare-table {
@@ -3553,6 +3655,18 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 575px) {
+  .how-it-works.reverse .how-img-main::after {
+    left: -10px;
+  }
+
+  .how-it-works.reverse .how-img-main::before {
+    left: -30px;
+  }
+
+  .how-it-works.reverse .how-img {
+    padding: 0;
+  }
+
   .page-hero.center {
     padding: 250px 0 100px;
   }
@@ -3788,5 +3902,21 @@ input[type='range']::-moz-range-track {
 
   .mobile-menu .mobile-btns a {
     font-size: 10px;
+  }
+
+  .treatment .treatment-main .treatment-card .treatment-icon {
+    max-width: 60px;
+  }
+
+  .treatment .treatment-main .treatment-card .treatment-icon img {
+    width: 55%;
+  }
+
+  .packages .tab-content .content {
+    gap: 10px;
+  }
+
+  .membership section.how-it-works {
+    padding: 50px 0;
   }
 }
