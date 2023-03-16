@@ -36,8 +36,13 @@ p {
   font-weight: 600;
 }
 
+.invislign .page-hero {
+  margin-top: -233px;
+  padding-top: 250px;
+}
+
 .header {
-  background: #00506c;
+  /* background: rgba(0, 80, 108, 0.95); */
   padding-top: 21px;
   padding-bottom: 10px;
   position: relative;
@@ -1437,7 +1442,7 @@ section.how-it-works {
 
 .package-main .main-content .content-head {
   text-align: center;
-  padding: 38px 0;
+  padding: 38px 10px;
   background: #00506c;
   color: white;
 }
@@ -1502,6 +1507,8 @@ section.how-it-works {
   background: #3bc7f7;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+  display: block;
+  width: fit-content;
 }
 
 .free-virtual {
@@ -2235,6 +2242,8 @@ section.membership-steps {
   );
   text-align: center;
   padding: 67px 0 72px 0;
+  margin-top: -233px;
+  padding-top: 300px;
 }
 
 .contact-us-page-hero {
@@ -2255,6 +2264,8 @@ section.membership-steps {
   );
   text-align: center;
   padding: 67px 0 72px 0;
+  margin-top: -233px;
+  padding-top: 300px;
 }
 
 .main-about-us-page-container h1 {
@@ -3199,6 +3210,28 @@ input[type='range']::-moz-range-track {
   display: none;
 }
 
+.compare-invislign {
+  position: relative;
+}
+
+.compare-braces {
+  position: relative;
+}
+
+.open-icon {
+  max-width: 16px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .package-main .main-content .content-body {
+    padding: 40px 15px 50px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .main-nav-footer {
     flex-direction: column;
@@ -3282,6 +3315,155 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 767px) {
+  .how-it-works.reverse .how-main {
+    flex-direction: column;
+  }
+
+  .how-it-works.reverse .how-content {
+    padding: 0;
+  }
+
+  .one-invislign {
+    padding-bottom: 0 !important;
+  }
+
+  section.how-it-works.steps {
+    padding-top: 100px !important;
+  }
+
+  .page-hero .hero-main {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-img {
+    max-width: 350px;
+  }
+
+  .specialist-list {
+    flex-direction: column;
+  }
+
+  .specialist-list .offer {
+    max-width: 100%;
+  }
+
+  .complimentry-services {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .specialist-list .offer h3 {
+    text-align: center;
+  }
+
+  .specialist-list .offer ul li {
+    justify-content: center;
+  }
+
+  .one-invislign p.Specialist-our-team-text {
+    margin-bottom: 0;
+  }
+
+  .compare-main {
+    flex-direction: column;
+  }
+
+  .compare {
+    padding: 50px 0;
+  }
+
+  .why-choose {
+    padding: 50px 0 130px;
+  }
+
+  .why-choose .why-main .why-card {
+    max-width: calc(50% - 15px);
+  }
+
+  .why-choose .why-main {
+    flex-wrap: wrap;
+  }
+
+  .difference-main {
+    flex-direction: column;
+  }
+
+  .difference-main > div {
+    max-width: 100%;
+  }
+
+  .how-main {
+    flex-direction: column;
+  }
+
+  .how-main .how-content {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  section.how-it-works {
+    padding: 50px 0;
+  }
+
+  .how-main .how-img {
+    max-width: 500px;
+  }
+
+  .compare-table {
+    padding-bottom: 50px;
+  }
+
+  .what-main .what-card {
+    max-width: calc(50% - 17px);
+  }
+
+  .what-invislign h2 {
+    margin-bottom: 30px;
+  }
+
+  .package-main {
+    flex-direction: column;
+  }
+
+  .package-main .left-img {
+    max-width: 100%;
+    aspect-ratio: 2/1;
+    background-position: top;
+  }
+
+  .package-main .main-content {
+    max-width: 100%;
+  }
+
+  .package-main .right-img {
+    max-width: 100%;
+    aspect-ratio: 2/1;
+  }
+
+  .free-virtual {
+    padding-top: 50px;
+  }
+
+  .free-main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .free-main .free-img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  section.how-it-works.steps {
+    padding-top: 50px;
+  }
+
   .main-coposite-bonding {
     flex-direction: column;
   }
@@ -3371,6 +3553,103 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 575px) {
+  .page-hero.center {
+    padding: 250px 0 100px;
+  }
+
+  main.dental-implants .how-it-works.reverse {
+    padding-bottom: 50px;
+  }
+
+  .preview-main {
+    flex-direction: column;
+  }
+
+  .preview-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .compare-main .vs span {
+    font-size: 20px;
+  }
+
+  .compare-main .vs {
+    max-width: 55px;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  .why-choose .why-main .why-card {
+    max-width: 100%;
+  }
+
+  .difference {
+    padding-top: 80px;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+
+  .how-main .how-img {
+    padding: 20px 20px 0 0;
+  }
+
+  .how-main .how-img-main::before {
+    right: -20px;
+    top: -20px;
+  }
+
+  .how-main .how-img-main::after {
+    top: -10px;
+    right: -10px;
+  }
+
+  .what-main .what-card {
+    max-width: 100%;
+  }
+
+  .steps .how-content h2 {
+    text-align: center;
+  }
+
+  .steps .how-content ul li {
+    gap: 20px;
+  }
+
+  .steps .how-content ul li .step-icon {
+    max-width: 50px;
+  }
+
+  .steps .how-content ul li .step-icon img {
+    max-width: 45%;
+    width: 100%;
+    display: block;
+  }
+
+  .how-main .how-content {
+    margin-bottom: 50px;
+  }
+
+  .faqs h2 {
+    margin-bottom: 30px;
+  }
+
+  .faqs .faqs-main .accordion {
+    padding: 15px 0;
+  }
+
+  .faqs .faqs-main .accordion__header > span {
+    font-size: 18px;
+  }
+
+  .footer-logo img {
+    max-width: 120px;
+  }
   h3.saving {
     font-size: 14px;
   }
